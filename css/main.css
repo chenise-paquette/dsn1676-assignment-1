@@ -13,61 +13,35 @@ html {
     text-size-adjust: 100%;
 }
 
-@media only screen and (min-width: 60em) {
-   
-    html {
-        font-size: 110%;
-    }
-}
-    
-@media only screen and (min-width: 90em) {
-     
-    html {
-        font-size: 120%;
-    }
-}
-    
-@media only screen and (min-width: 120em) {
-     
-    html {
-        font-size: 130%;
-    }
-}
-
 *, *::before, *::after {
     box-sizing: inherit;
 }
 
+a,
+a:link,
+a:visited {
+    color: #fff;
+}
+
 body {
     background-color: #E7E5D9;
-    padding: 0;
-    margin: 0;
 }
 
 .masthead {
-    background-image: url(images/masthead-bg.png)repeat left center;
     text-align: center;
+    background-image: transparent url("../images/masthead-bg.png") repeat left center;
 }
-
-.shadow {
-    text-shadow: 2px 2px #87714F;
-}
-
-.center { 
-    text-align: center;
-    align-content: center center;
-    vertical-align: center;
-    margin: 0 auto;
-}
-
 
 .title {
-    background-image: url(../images/star_padge.svg), url(../images/star_padge.svg);
-     background-color: #E7E5D9;
-    background-position: 6% 50%, 94% 50%;
-    background-repeat: no-repeat;
-    background-size: 45px 45px;
-    margin: 0 auto; 
+    display: inline-block;
+    background-color: #e8e7db;
+    text-shadow: 3px 3px 0 #d7d6cc;
+}
+
+.logo {
+    margin: 0 0 .2em 0 0;
+    width: 1.2em;
+    vertical-align: middle;
 }
 
 .frame {
