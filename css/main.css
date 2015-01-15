@@ -73,7 +73,7 @@ body {
 .frame {
     border-image: url()25 25 25 25 stretch stretch;
     border-width: 25px 25px 25px 25px;
-     width: 100%;
+    width: 100%;
     margin: 0 auto;
    
 }
@@ -83,6 +83,12 @@ body {
     margin-bottom: 1em;
     position: relative;
     color: white;
+}
+
+.hat {
+    margin-left: 33%;
+    margin-right: 33%;
+    width: 34%;
 }
 
 .uppercase {
