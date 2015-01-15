@@ -45,8 +45,8 @@ body {
 }
 
 .masthead {
+    background-image: url(images/masthead-bg.png)repeat left center;
     text-align: center;
-    margin: 0 auto;
 }
 
 .shadow {
@@ -71,7 +71,7 @@ body {
 }
 
 .frame {
-    border-image: url()25 25 25 25 stretch stretch;
+    border-image: url(../images/border.png)25 25 25 25 stretch stretch;
     border-width: 25px 25px 25px 25px;
     width: 100%;
     margin: 0 auto;
@@ -96,11 +96,10 @@ body {
     margin: 0 auto;
 }
 
-
-.handcuffs {
+.graphics {
     margin-left: 38%;
     margin-right: 38%;
-    width: 24%;
+    width: 25%;
 }
 
 @media only screen and (min-width: 25em) {
