@@ -70,34 +70,25 @@ body {
     margin: 0 auto; 
 }
 
+.frame {
+    border-image: url()25 25 25 25 stretch stretch;
+    border-width: 25px 25px 25px 25px;
+     width: 100%;
+    margin: 0 auto;
+   
+}
 
+.bg {
+    background-color: #87714F;
+    margin-bottom: 1em;
+    position: relative;
+    color: white;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.uppercase {
+    text-transform: uppercase;
+    margin: 0 auto;
+}
 
 
 @media only screen and (min-width: 25em) {
